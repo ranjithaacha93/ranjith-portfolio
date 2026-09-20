@@ -1,26 +1,73 @@
-# My Portfolio Builder (00)
+# Ranjith S — Full Stack Developer Portfolio
 
-hii bro. eniku oru portfolio pananu. next chant la requirement solour.
+Welcome to my personal portfolio website.
 
-This project was built with [Lovable](https://lovable.dev).
+I am a Full Stack Web Developer passionate about building modern, responsive, and user-friendly web applications.
 
-**Live app**: https://my-chant-portfolio.lovable.app
+## 🌐 Portfolio
 
-## Build with Lovable
+🔗 **Live Portfolio:**  
+https://ranjith-fullstack-portfolio.netlify.app/
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/dcab06ad-0591-4095-a3ea-2b7d989a1886).
+## 👨‍💻 About Me
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+I am a Full Stack Web Developer with experience in creating responsive websites and web applications using modern web technologies.
 
-## Development
+I enjoy developing clean user interfaces, interactive web experiences, and scalable web solutions.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 🛠️ Skills
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+### Frontend
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- React.js
+- TypeScript
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- PHP
+
+### Database
+- MySQL
+- SQL
+
+### Tools & Technologies
+- Git
+- GitHub
+- VS Code
+- Vite
+- WordPress
+- Elementor
+- WooCommerce
+- REST API
+
+## 🚀 Projects
+
+Some of my featured projects are available on my portfolio.
+
+Visit my portfolio to explore my projects, skills, and experience:
+
+🔗 https://ranjith-fullstack-portfolio.netlify.app/
+
+## 📫 Connect With Me
+
+- **GitHub:** https://github.com/ranjithaacha93
+- **Portfolio:** https://ranjith-fullstack-portfolio.netlify.app/
+
+## 📌 Portfolio Features
+
+- Responsive design
+- Modern UI
+- Interactive animations
+- Project showcase
+- Skills & experience
+- Contact section
+- Mobile-friendly layout
+
+---
+
+⭐ Thank you for visiting my GitHub profile!
