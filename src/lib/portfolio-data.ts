@@ -208,7 +208,7 @@ export const projects: Project[] = [
     body: "High-end jewelry and bullion trading platform featuring live daily gold & silver rates, product showcases, and customer inquiry workflows.",
     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     image: slgImg,
-    link: "https://slggold.com/",
+    link: "https://slggoldjewellers.com/",
   },
   {
     n: "05",
