@@ -12,21 +12,25 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Ranjith — Full Stack Developer & AI Specialist",
+        title: "Ranjith S | Full Stack Developer & AI Specialist",
       },
       {
         name: "description",
         content:
-          "Ranjith is a full stack developer and AI specialist in Chennai building web platforms, AI chatbots, WordPress solutions, and scalable backends.",
+          "Ranjith S is a Full Stack Developer and AI Specialist in Chennai, specializing in React.js, JavaScript, TypeScript, Node.js, WordPress, AI solutions, and modern web development.",
       },
       {
         property: "og:title",
-        content: "Ranjith — Full Stack Developer & AI Specialist",
+        content: "Ranjith S | Full Stack Developer & AI Specialist",
       },
       {
         property: "og:description",
         content:
-          "Web platforms, AI chatbots, and scalable backends — built with React, Node.js, and WordPress.",
+          "Explore Ranjith S's portfolio featuring React.js, JavaScript, TypeScript, Node.js, WordPress, AI solutions, and modern web development projects.",
+      },
+      {
+        property: "og:url",
+        content: "https://ranjiths-dev.netlify.app/",
       },
     ],
 

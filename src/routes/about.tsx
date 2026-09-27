@@ -8,21 +8,44 @@ import { education, experience, profile, stats } from "@/lib/portfolio-data";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
-    meta: [
-      { title: "About Ranjith — Full Stack Developer & AI Specialist" },
-      {
-        name: "description",
-        content:
-          "Ranjith's background: full stack development at Shine Nexa Technology, AI and Generative AI certification, and a B.Com in Computer Applications.",
-      },
-      { property: "og:title", content: "About Ranjith — Full Stack Developer" },
-      {
-        property: "og:description",
-        content:
-          "Education, experience, and the way I work — clean code, performance, and SEO-friendly builds.",
-      },
-    ],
-  }),
+  meta: [
+    {
+      title: "About Ranjith S | Full Stack Developer & AI Specialist",
+    },
+    {
+      name: "description",
+      content:
+        "Learn about Ranjith S, a Full Stack Developer and AI Specialist in Chennai with experience in React.js, JavaScript, TypeScript, WordPress, and Generative AI.",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      property: "og:title",
+      content: "About Ranjith S | Full Stack Developer & AI Specialist",
+    },
+    {
+      property: "og:description",
+      content:
+        "Explore Ranjith S's education, professional experience, technical skills, and journey as a Full Stack Developer and AI Specialist.",
+    },
+    {
+      property: "og:url",
+      content: "https://ranjiths-dev.netlify.app/about",
+    },
+    {
+      property: "og:type",
+      content: "profile",
+    },
+  ],
+  links: [
+    {
+      rel: "canonical",
+      href: "https://ranjiths-dev.netlify.app/about",
+    },
+  ],
+}),
   component: About,
 });
 

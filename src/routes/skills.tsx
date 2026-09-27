@@ -49,21 +49,40 @@ export const Route = createFileRoute("/skills")({
   head: () => ({
     meta: [
       {
-        title: "Technical Skills — Ranjith",
+        title: "Skills | React, JavaScript, TypeScript & Full Stack Development | Ranjith S",
       },
       {
         name: "description",
         content:
-          "Explore Ranjith's technical skills across frontend, backend, databases, WordPress, SEO, AI, automation and development tools.",
+          "Explore Ranjith S's technical skills in React.js, JavaScript, TypeScript, Node.js, Python, MySQL, MongoDB, WordPress, SEO, Generative AI, automation, and modern web development tools.",
+      },
+      {
+        name: "robots",
+        content: "index, follow",
       },
       {
         property: "og:title",
-        content: "Technical Skills — Ranjith",
+        content:
+          "Skills | React, JavaScript, TypeScript & Full Stack Development | Ranjith S",
       },
       {
         property: "og:description",
         content:
-          "Frontend, backend, WordPress, SEO, AI and development tools.",
+          "Explore Ranjith S's skills across frontend, backend, databases, WordPress, SEO, AI, automation, and modern development tools.",
+      },
+      {
+        property: "og:url",
+        content: "https://ranjiths-dev.netlify.app/skills",
+      },
+      {
+        property: "og:type",
+        content: "website",
+      },
+    ],
+    links: [
+      {
+        rel: "canonical",
+        href: "https://ranjiths-dev.netlify.app/skills",
       },
     ],
   }),
@@ -255,10 +274,9 @@ function Skills() {
                   transition-all
                   duration-500
                   hover:-translate-y-1.5
-                  ${
-                    isFeatured
-                      ? "border-[#3B82F6]/60 bg-gradient-to-br from-[#1E293B] via-[#0F172A] to-[#1E293B] shadow-[0_10px_35px_rgba(59,130,246,0.25)]"
-                      : "border-slate-800 bg-[#1E293B] hover:border-[#3B82F6]/40 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
+                  ${isFeatured
+                    ? "border-[#3B82F6]/60 bg-gradient-to-br from-[#1E293B] via-[#0F172A] to-[#1E293B] shadow-[0_10px_35px_rgba(59,130,246,0.25)]"
+                    : "border-slate-800 bg-[#1E293B] hover:border-[#3B82F6]/40 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
                   }
                 `}
               >

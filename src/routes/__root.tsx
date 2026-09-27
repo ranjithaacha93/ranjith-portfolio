@@ -81,25 +81,91 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
     meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "author", content: "Ranjith" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      {
+        charSet: "utf-8",
+      },
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1",
+      },
+      {
+        name: "author",
+        content: "Ranjith S",
+      },
+      {
+        name: "description",
+        content:
+          "Ranjith S is a Frontend Developer and Web Developer specializing in React.js, JavaScript, TypeScript, WordPress, and modern responsive web development.",
+      },
+      {
+        name: "robots",
+        content: "index, follow",
+      },
+      {
+        property: "og:type",
+        content: "website",
+      },
+      {
+        property: "og:title",
+        content: "Ranjith S | Frontend Developer & Web Developer",
+      },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Ranjith S, a Frontend Developer specializing in React.js, JavaScript, TypeScript, WordPress, and responsive web development.",
+      },
+      {
+        property: "og:url",
+        content: "https://ranjiths-dev.netlify.app/",
+      },
+      {
+        property: "og:site_name",
+        content: "Ranjith S Portfolio",
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+      {
+        name: "twitter:title",
+        content: "Ranjith S | Frontend Developer & Web Developer",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Portfolio of Ranjith S, a Frontend Developer specializing in React.js, JavaScript, TypeScript, WordPress, and responsive web development.",
+      },
     ],
+
     links: [
+      {
+        rel: "canonical",
+        href: "https://ranjiths-dev.netlify.app/",
+      },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap",
       },
       {
         rel: "stylesheet",
         href: appCss,
       },
       { rel: "icon", href: faveIcon, type: "image/png" },
+    ],
+
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Ranjith S",
+          url: "https://ranjiths-dev.netlify.app/",
+          jobTitle: "Full Stack Developer & AI Specialist",
+        }),
+      },
     ],
   }),
   shellComponent: RootShell,

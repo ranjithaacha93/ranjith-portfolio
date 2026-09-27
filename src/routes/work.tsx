@@ -6,20 +6,45 @@ import { projects } from "@/lib/portfolio-data";
 
 export const Route = createFileRoute("/work")({
   head: () => ({
-    meta: [
-      { title: "Work — Projects by Ranjith, Full Stack Developer" },
-      {
-        name: "description",
-        content:
-          "Selected work: AI chatbots, e-commerce platforms, REST APIs, and WordPress builds delivered by Ranjith.",
-      },
-      { property: "og:title", content: "Work — Projects by Ranjith" },
-      {
-        property: "og:description",
-        content: "Portfolio projects across AI, full stack, backend, SEO, and CMS domains.",
-      },
-    ],
-  }),
+  meta: [
+    {
+      title: "Projects | Full Stack, React.js, AI & WordPress Projects | Ranjith S",
+    },
+    {
+      name: "description",
+      content:
+        "Explore Ranjith S's portfolio projects including React.js websites, full stack applications, AI chatbots, REST APIs, e-commerce platforms, SEO, and WordPress solutions.",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      property: "og:title",
+      content:
+        "Projects | Full Stack, React.js, AI & WordPress Projects | Ranjith S",
+    },
+    {
+      property: "og:description",
+      content:
+        "Explore Ranjith S's web development portfolio featuring React.js, full stack applications, AI chatbots, REST APIs, e-commerce, SEO, and WordPress projects.",
+    },
+    {
+      property: "og:url",
+      content: "https://ranjiths-dev.netlify.app/work",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+  ],
+  links: [
+    {
+      rel: "canonical",
+      href: "https://ranjiths-dev.netlify.app/work",
+    },
+  ],
+}),
   component: Work,
 });
 

@@ -8,19 +8,45 @@ import { profile } from "@/lib/portfolio-data";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Ranjith — Let's Build Something Together" },
+      {
+        title: "Contact Ranjith S | Full Stack Developer & AI Specialist",
+      },
       {
         name: "description",
         content:
-          "Get in touch with Ranjith for full stack web development, AI chatbot builds, WordPress platforms, and SEO work.",
+          "Contact Ranjith S for full stack web development, React.js, AI chatbot development, WordPress solutions, SEO, and modern web development projects.",
       },
-      { property: "og:title", content: "Contact Ranjith" },
+      {
+        name: "robots",
+        content: "index, follow",
+      },
+      {
+        property: "og:title",
+        content: "Contact Ranjith S | Full Stack Developer & AI Specialist",
+      },
       {
         property: "og:description",
-        content: "Available for freelance and full-time work — email or call to start a project.",
+        content:
+          "Get in touch with Ranjith S for full stack development, React.js, AI, WordPress, SEO, and web development projects.",
       },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
+      {
+        property: "og:url",
+        content: "https://ranjiths-dev.netlify.app/contact",
+      },
+      {
+        property: "og:type",
+        content: "website",
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+    ],
+    links: [
+      {
+        rel: "canonical",
+        href: "https://ranjiths-dev.netlify.app/contact",
+      },
     ],
   }),
   component: Contact,
@@ -97,11 +123,10 @@ function Contact() {
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-                className={`group flex h-full flex-col justify-between rounded-[1.35rem] sm:rounded-[1.75rem] border p-4.5 sm:p-6 transition-all duration-300 ${
-                  card.accent
+                className={`group flex h-full flex-col justify-between rounded-[1.35rem] sm:rounded-[1.75rem] border p-4.5 sm:p-6 transition-all duration-300 ${card.accent
                     ? "border-[#3B82F6]/50 bg-gradient-to-br from-[#1E293B] via-[#0F172A] to-[#1E293B] shadow-[0_10px_30px_rgba(59,130,246,0.15)]"
                     : "border-slate-800/90 bg-[#131C2E]/70 hover:border-slate-700 hover:bg-[#162032] hover:shadow-[0_10px_25px_rgba(0,0,0,0.4)]"
-                }`}
+                  }`}
               >
                 <div>
                   <div className="flex items-start justify-between gap-3">
@@ -152,7 +177,7 @@ function Contact() {
         >
           <span className="absolute -top-24 -right-16 size-80 rounded-full bg-[#3B82F6]/20 blur-3xl pointer-events-none" />
           <span className="absolute -bottom-24 -left-16 size-80 rounded-full bg-[#06B6D4]/15 blur-3xl pointer-events-none" />
-          
+
           <div className="relative flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-400">
